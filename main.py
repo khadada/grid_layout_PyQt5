@@ -38,4 +38,10 @@ class MainWindow(QMainWindow):
         # Set the container to be the central widget of the main window:
         self.setCentralWidget(container)
 
+# Run the program:
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+    main_window = MainWindow()
+    sys.exit(app.exec_())
+
 
